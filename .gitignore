@@ -1,0 +1,36 @@
+# dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# testing
+coverage/
+.turbo/
+
+# next.js
+.next/
+out/
+next-env.d.ts
+
+# production
+dist/
+build/
+
+# misc
+.DS_Store
+*.pem
+*.tsbuildinfo
+npm-debug.log*
+dump.rdb
+
+# env
+.env
+.env.*
+!.env.example
+
+# logs
+*.log
+logs/
+
+# turbo
+.turbo

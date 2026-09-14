@@ -1,0 +1,20 @@
+{
+  "name": "@smm/database",
+  "version": "1.0.0",
+  "private": true,
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "typecheck": "tsc -p tsconfig.json --noEmit",
+    "clean": "rm -rf dist"
+  },
+  "dependencies": {
+    "@smm/utils": "*",
+    "decimal.js": "^10.4.3",
+    "mongoose": "^8.9.2"
+  },
+  "devDependencies": {
+    "typescript": "^5.7.2"
+  }
+}

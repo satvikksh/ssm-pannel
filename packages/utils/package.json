@@ -1,0 +1,19 @@
+{
+  "name": "@smm/utils",
+  "version": "1.0.0",
+  "private": true,
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "typecheck": "tsc -p tsconfig.json --noEmit",
+    "clean": "rm -rf dist"
+  },
+  "dependencies": {
+    "decimal.js": "^10.4.3",
+    "nanoid": "^3.3.7"
+  },
+  "devDependencies": {
+    "typescript": "^5.7.2"
+  }
+}

@@ -1,0 +1,6 @@
+# See the repo root .gitignore; these are web-local overrides.
+.next/
+out/
+next-env.d.ts
+node_modules/
+tsconfig.tsbuildinfo
